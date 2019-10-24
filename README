@@ -1,0 +1,31 @@
+NOTES REGARDING SOFTWARE
+
+NAME        RandTree
+
+VERSION     1.0
+
+COPYRIGHT   Copyright © 2019 Lars Sommer Jermiin. All rights reserved.
+
+WARNING     The copyright holder takes no legal responsibility for the correctness of 
+            results obtained using this program.
+
+AUTHOR      Lars Sommer Jermiin
+
+ADDRESS     Australian National University
+            University College Dublin            
+
+CONTACT     lars.jermiin@anu.edu.au
+
+DATE        24 October 2019
+
+PURPOSE     RandTree reads a text file with taxon names and generates n
+            rooted or unrooted trees, where n is a number between 1 and
+            2000. The Newick formatted trees are printed to a file.
+
+COMPILE     g++ randtree.cpp -o randtree -O3 -Wall
+
+HELP        Simply type randtree in the command line
+
+STATUS      Software complete
+
+NOTE        Contact author for updates, etc
